@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  min-height: 100vh;
+  border: 3px solid red;
+  width: 90%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.desserts {
+  border: 3px solid green;
+  width: 70%;
+}
+
+.cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2em 0;
+}
+
+.cart {
+  border: 3px solid green;
+  width: 30%;
+  padding-left: 50px;
+}
+
+.fl-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.fl-column {
+  display: flex;
+  flex-direction: column;
+}
